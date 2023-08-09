@@ -28,3 +28,15 @@ function btnHoverEffect(obj) {
 }
 
 btnHoverEffect(btnObj); // 함수 호출 기능을 만드는것
+
+//Swiper Plugin Codes
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
